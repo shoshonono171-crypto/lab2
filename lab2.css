@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+.firstDiv {
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.firstDiv h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.subtitle {
+    margin: 0 0 14px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.firstDiv nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 12px;
+}
+
+.firstDiv nav a:hover {
+    text-decoration: underline;
+}
+
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px 60px;
+}
+
+.secondDiv h2 {
+    margin: 0 0 20px;
+}
+
+.secondDiv p {
+    max-width: 480px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.proj {
+    text-align: center;
+}
+
+.proj h2 {
+    margin: 0 0 20px;
+}
+
+.thirdDiv {
+    padding: 0 20px 60px;
+}
+
+.projectsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    background-color: white;
+    width: 210px;
+    padding: 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    font-size: 15px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
